@@ -1,0 +1,33 @@
+body {
+    background-image: url(../IMG/pexels-codioful-7130557.jpg);
+    text-align: center;
+}
+
+nav {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+a {
+    font-size: 21px;
+    color: rgb(73, 32, 32);
+    img{
+        width: 30px;
+        height: 30px;
+}
+}
+
+img {
+    width: 500px;
+    height: 200px;
+}
+
+ul > li {
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
