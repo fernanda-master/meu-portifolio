@@ -1,0 +1,101 @@
+body {
+    background-image: linear-gradient(#FAC493, #FAED96);
+}
+
+nav {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 21px;
+    color: rgb(73, 32, 32);
+}
+
+nav > a:hover {
+    border: 2px;
+    border-color: rgb(163, 50, 50);
+    border-style: double;
+    margin: 5px;
+    background-color: rgb(255, 174, 174);
+}
+
+nav > a:active {
+    border: 1px  rgb(175, 92, 92) double;
+    background-color: rgb(211, 145, 108);
+    border-radius: 10px;
+}
+.aLink {
+    background-color: #faae66;
+    text-decoration: none;
+    height: 25px;
+    width: 160px;
+    border-radius: 6px;
+}
+
+.aMenu {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(128, 65, 65);
+    height: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 21px;
+    color: rgb(110, 49, 49);
+    text-decoration: none;
+    border-radius: 12px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a:visited {
+    color: rgb(141, 102, 102);
+}
+
+a:active {
+    border: 1px  rgb(175, 92, 92) double;
+    background-color: rgb(211, 145, 108);
+    border-radius: 10px;
+}
+
+img {
+    width:130px;
+    height:130px;
+}
+
+ul > li {
+    font-style: italic;
+    font-size: 24px;
+}
+
+footer > a >img {
+    /* text-align: center; não funcionou p/ todos os itens */
+    width: 30px;
+    height: 30px;
+    border-style: hidden;
+}
+
+footer {
+    text-align: center;
+}
+
+.aEspacamento {
+    height: 72vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 10px;
+    float: center;
+}
+
+.tamanho {
+    font-style: italic;
+    font-size: 24px;
+}
+
+.titulo {
+    border: 3px brown double;
+    background-color: #f0b277;
+    color:rgb(119, 2, 2);
+    border-radius: 5px;
+}
+
+.pColor {
+    color:  rgb(56, 0, 0) ;
+}
